@@ -25,11 +25,12 @@ public class Practice02 {
 		
 		
 		
-		/*System.out.println("3. 코드 작성-----------------------------------------------------------------");
+		/*System.out.println("3. 오류수정-----------------------------------------------------------------");
 		
 		int age;
 		
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.println("나이를 입력해주세요");
 		System.out.println("나이 : ");
 		age = scan.nextInt();
@@ -48,7 +49,7 @@ public class Practice02 {
 		/*System.out.println("4.나이를 입력받아 19세 이상 65세 미만이면 1번그룹 그외에는 2번그룹----------------------------------------------------------------");
 		
 		Scanner scan = new Scanner(System.in);
-		System.out.println("너님 나이는?");
+		System.out.println("당신의 나이는?");
 		int age = scan.nextInt();
 		
 		if(age >= 19 && age < 65) {
@@ -65,31 +66,33 @@ public class Practice02 {
 		/*System.out.println("5. 키와 몸무게를 입력받아 저체중, 표준, 과체중 판별-----------------------------------------------------------------");
 		
 		Scanner scan = new Scanner(System.in);
+		
 		System.out.println("키와 몸무게를 입력해주세요.");
+		
 		System.out.println("키: ");
 		double height = scan.nextInt();
 		
 		System.out.println("몸무게: ");
 		double weight = scan.nextInt();
 		
-		double result1;
-		result1 = (height - 100) * 0.9;
+		double standard;
+		standard = (height - 100) * 0.9;
 		
-		double result2;
-		result2 = (weight/result1)*100;
+		double result;
+		result = (weight/standard)*100;
 		
-		if(result2 < 100) {
+		if(result < 100) {
 			System.out.println("저체중입니다.");
 			
-		}else if(result2 >= 100 && result2 < 110){
+		}else if(result >= 100 && result < 110){
 			System.out.println("정상체중입니다.");
 			
-		}else if(result2 >= 110) {
+		}else if(result >= 110) {
 			System.out.println("과체중입니다.");
 		}
 		
 		
-		System.out.println("표준체중: " + result1);
+		System.out.println("표준체중: " + standard);
 		
 		scan.close();*/
 		
@@ -146,6 +149,7 @@ public class Practice02 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("숫자 3개를 입력해주세요.");
+		
 		System.out.println("숫자1: ");
 		int num1 = scan.nextInt();
 		
@@ -157,8 +161,10 @@ public class Practice02 {
 		
 		if(num1 < num2 && num1 < num3) {
 			System.out.println("가장 작은수는 " + num1 + " 입니다.");
+			
 		}else if(num2 < num1 && num2 <num3) {
 			System.out.println("가장 작은수는 " + num2 + " 입니다.");
+			
 		}else {
 			System.out.println("가장 작은수는 " + num3 + " 입니다.");
 		}
@@ -167,7 +173,7 @@ public class Practice02 {
 		scan.close();*/
 		
 		
-		/*System.out.println("9. 두개의 정수를 입력받아 큰수의 약수인지 확인--------------------------------------");
+		/*System.out.println("9. 두개의 정수를 입력받아 작은수가 큰수의 약수인지 확인--------------------------------------");
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -187,6 +193,7 @@ public class Practice02 {
 			}else {
 				System.out.println(num1 + " 은 " + num2 + "의 약수가 아닙니다.");
 			}
+			
 		}else {
 			result = num1 % num2;
 			
@@ -203,7 +210,7 @@ public class Practice02 {
 	
 		
 		
-		/*System.out.println("10. 사번(양의 정수)를 입력하면 팀을 확인------------------------------------------------");
+		/*System.out.println("10. 사번(양의 정수)를 입력하면 /3을 하여 그 값으로 팀을 확인------------------------------------------------");
 		
 		Scanner scan = new Scanner(System.in);
 		
@@ -244,82 +251,82 @@ public class Practice02 {
 		
 		switch(a) {
 			case 'a':
-				System.out.println("모음니다.");
+				System.out.println("모음입니다.");
 				break;
 			case 'b':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'c':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'd':
-				System.out.println("모자음니다음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'e':
-				System.out.println("모음니다.");
+				System.out.println("모음입니다.");
 				break;
 			case 'f':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'g':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'h':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'i':
-				System.out.println("모음니다.");
+				System.out.println("모음입니다.");
 				break;
 			case 'j':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'k':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'l':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'm':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'n':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'o':
-				System.out.println("모음니다.");
+				System.out.println("모음입니다.");
 				break;
 			case 'p':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'q':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'r':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 's':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 't':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'u':
-				System.out.println("모음니다.");
+				System.out.println("모음입니다.");
 				break;
 			case 'v':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'w':
-				System.out.println("모음니다.");
+				System.out.println("모음입니다.");
 				break;
 			case 'x':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 			case 'y':
-				System.out.println("모음니다.");
+				System.out.println("모음입니다.");
 				break;
 			case 'z':
-				System.out.println("자음니다.");
+				System.out.println("자음입니다.");
 				break;
 		}
 		
@@ -337,7 +344,7 @@ public class Practice02 {
 		
 		System.out.println("출력되는 내용을 입력하세요");
 		System.out.println("기호: ");
-		char a = scan.next().charAt(0);
+		char alphabet = scan.next().charAt(0);
 		
 		System.out.println("숫자1: ");
 		int num1 = scan.nextInt();
@@ -346,7 +353,7 @@ public class Practice02 {
 		int num2 = scan.nextInt();
 		
 		
-		switch(a) {
+		switch(alphabet) {
 			case '+':
 				double result = num1 + num2;
 				System.out.println("결과는: " + result );
@@ -384,6 +391,7 @@ public class Practice02 {
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("숫자를 입력 해주세요");
+		
 		System.out.println("숫자: ");
 		float num = scan.nextFloat();
 		float result;
@@ -399,15 +407,15 @@ public class Practice02 {
 		scan.close();*/
 		
 		
-		System.out.println("14.소득세 계산--------------------------------------------------------------");
+		/*System.out.println("14.소득세 계산--------------------------------------------------------------");
 	
 		Scanner scan = new Scanner(System.in);
 		
 		System.out.println("수익을 입력해 주세요.");
-		System.out.println("금익: ");
+		
+		System.out.println("금액: ");
 		double money = scan.nextDouble();
 		double tax;
-//		money = money * 10000;
 		
 		if(money <= 1000 && 0 <= money ) {
 			tax = 0.09 * money;
@@ -429,7 +437,7 @@ public class Practice02 {
 			System.out.println("잘못 입력했습니다.");
 		}
 		
-		scan.close();
+		scan.close();*/
 		
 	}
 }
