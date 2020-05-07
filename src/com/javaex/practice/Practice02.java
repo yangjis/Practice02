@@ -6,7 +6,7 @@ public class Practice02 {
 
 	public static void main(String[] args) {
 		
-		/*System.out.println("1-----------------------------------------------------");
+		/*System.out.println("1. 오류 수정-----------------------------------------------------");
 		int age = 15;
 		
 		if(0 <age && age <18) {
@@ -15,7 +15,7 @@ public class Practice02 {
 		
 		
 		
-		/*System.out.println("2------------------------------------------------------------");
+		/*System.out.println("2. 오류 수정------------------------------------------------------------");
 		
 		int x = 0;
 		
@@ -25,7 +25,7 @@ public class Practice02 {
 		
 		
 		
-		/*System.out.println("3-----------------------------------------------------------------");
+		/*System.out.println("3. 코드 작성-----------------------------------------------------------------");
 		
 		int age;
 		
@@ -45,7 +45,7 @@ public class Practice02 {
 		
 		
 		
-		/*System.out.println("4----------------------------------------------------------------");
+		/*System.out.println("4.나이를 입력받아 19세 이상 65세 미만이면 1번그룹 그외에는 2번그룹----------------------------------------------------------------");
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("너님 나이는?");
@@ -62,7 +62,7 @@ public class Practice02 {
 		
 		
 		
-		/*System.out.println("5-----------------------------------------------------------------");
+		/*System.out.println("5. 키와 몸무게를 입력받아 저체중, 표준, 과체중 판별-----------------------------------------------------------------");
 		
 		Scanner scan = new Scanner(System.in);
 		System.out.println("키와 몸무게를 입력해주세요.");
@@ -94,7 +94,7 @@ public class Practice02 {
 		scan.close();*/
 		
 		
-		/*System.out.println("6------------------------------------------------------------------");
+		/*System.out.println("6. 큰수와 작은수 분류------------------------------------------------------------------");
 		
 		Scanner scan = new Scanner(System.in);
 		
